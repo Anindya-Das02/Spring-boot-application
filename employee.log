@@ -1,0 +1,65 @@
+2020-11-15 01:08:36.998  INFO 13224 --- [main] c.e.springtest1.SpringTest1Application   : Starting SpringTest1Application on Anindya with PID 13224 (C:\Users\HP\Documents\workspace-spring-tool-suite-4-4.8.1.RELEASE\spring-test1\target\classes started by HP in C:\Users\HP\Documents\workspace-spring-tool-suite-4-4.8.1.RELEASE\spring-test1)
+2020-11-15 01:08:37.005  INFO 13224 --- [main] c.e.springtest1.SpringTest1Application   : No active profile set, falling back to default profiles: default
+2020-11-15 01:08:37.739  INFO 13224 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-11-15 01:08:37.823  INFO 13224 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 67ms. Found 1 JPA repository interfaces.
+2020-11-15 01:08:38.891  INFO 13224 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8086 (http)
+2020-11-15 01:08:38.916  INFO 13224 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-15 01:08:38.917  INFO 13224 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-15 01:08:39.087  INFO 13224 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-11-15 01:08:39.088  INFO 13224 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1967 ms
+2020-11-15 01:08:39.409  INFO 13224 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-11-15 01:08:39.484  INFO 13224 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.22.Final
+2020-11-15 01:08:39.748  INFO 13224 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-11-15 01:08:39.949  INFO 13224 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-11-15 01:08:40.334  INFO 13224 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-11-15 01:08:40.366  INFO 13224 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-11-15 01:08:41.405  INFO 13224 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-11-15 01:08:41.416  INFO 13224 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-11-15 01:08:41.891  WARN 13224 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-11-15 01:08:42.079  INFO 13224 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-15 01:08:42.401  INFO 13224 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8086 (http) with context path ''
+2020-11-15 01:08:42.412  INFO 13224 --- [main] c.e.springtest1.SpringTest1Application   : Started SpringTest1Application in 6.073 seconds (JVM running for 7.25)
+2020-11-15 01:08:52.587  INFO 13224 --- [http-nio-8086-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-15 01:08:52.588  INFO 13224 --- [http-nio-8086-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-11-15 01:08:52.600  INFO 13224 --- [http-nio-8086-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 12 ms
+2020-11-15 01:08:52.642  INFO 13224 --- [http-nio-8086-exec-1] com.example.controller.EmployeeAspect    : logged this message
+2020-11-15 01:11:33.288  INFO 13224 --- [RMI TCP Connection(13)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-11-15 01:11:33.371  INFO 13224 --- [RMI TCP Connection(13)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-15 01:11:33.374  INFO 13224 --- [RMI TCP Connection(13)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-11-15 01:11:33.384  INFO 13224 --- [RMI TCP Connection(13)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-11-15 01:11:33.417  INFO 13224 --- [RMI TCP Connection(13)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-11-15 01:11:40.657  INFO 16076 --- [main] c.e.springtest1.SpringTest1Application   : Starting SpringTest1Application on Anindya with PID 16076 (C:\Users\HP\Documents\workspace-spring-tool-suite-4-4.8.1.RELEASE\spring-test1\target\classes started by HP in C:\Users\HP\Documents\workspace-spring-tool-suite-4-4.8.1.RELEASE\spring-test1)
+2020-11-15 01:11:40.661  INFO 16076 --- [main] c.e.springtest1.SpringTest1Application   : No active profile set, falling back to default profiles: default
+2020-11-15 01:11:41.521  INFO 16076 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-11-15 01:11:41.606  INFO 16076 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 71ms. Found 1 JPA repository interfaces.
+2020-11-15 01:11:42.689  INFO 16076 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8086 (http)
+2020-11-15 01:11:42.702  INFO 16076 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-15 01:11:42.703  INFO 16076 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-15 01:11:42.890  INFO 16076 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-11-15 01:11:42.891  INFO 16076 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2109 ms
+2020-11-15 01:11:43.225  INFO 16076 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-11-15 01:11:43.324  INFO 16076 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.22.Final
+2020-11-15 01:11:43.550  INFO 16076 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-11-15 01:11:43.717  INFO 16076 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-11-15 01:11:44.005  INFO 16076 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-11-15 01:11:44.029  INFO 16076 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-11-15 01:11:44.933  INFO 16076 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-11-15 01:11:44.944  INFO 16076 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-11-15 01:11:45.428  WARN 16076 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-11-15 01:11:45.603  INFO 16076 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-15 01:11:45.912  INFO 16076 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8086 (http) with context path ''
+2020-11-15 01:11:45.923  INFO 16076 --- [main] c.e.springtest1.SpringTest1Application   : Started SpringTest1Application in 5.935 seconds (JVM running for 7.068)
+2020-11-15 01:11:51.259  INFO 16076 --- [http-nio-8086-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-15 01:11:51.260  INFO 16076 --- [http-nio-8086-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-11-15 01:11:51.274  INFO 16076 --- [http-nio-8086-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 14 ms
+2020-11-15 01:11:51.326  INFO 16076 --- [http-nio-8086-exec-1] com.example.controller.EmployeeAspect    : calling method : EmployeeController.getEmployees
+2020-11-15 01:11:51.596  INFO 16076 --- [http-nio-8086-exec-1] com.example.controller.EmployeeAspect    : successfully executed method: EmployeeController.getEmployees
+2020-11-15 01:13:03.480  INFO 16076 --- [http-nio-8086-exec-5] com.example.controller.EmployeeAspect    : calling method : EmployeeController.addEmployee
+2020-11-15 01:13:03.640  INFO 16076 --- [http-nio-8086-exec-5] com.example.controller.EmployeeAspect    : successfully executed method: EmployeeController.addEmployee
+2020-11-15 01:13:15.930  INFO 16076 --- [http-nio-8086-exec-6] com.example.controller.EmployeeAspect    : calling method : EmployeeController.getEmployees
+2020-11-15 01:13:15.936  INFO 16076 --- [http-nio-8086-exec-6] com.example.controller.EmployeeAspect    : successfully executed method: EmployeeController.getEmployees
+2020-11-15 01:14:22.047  INFO 16076 --- [RMI TCP Connection(11)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-11-15 01:14:22.131  INFO 16076 --- [RMI TCP Connection(11)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-15 01:14:22.132  INFO 16076 --- [RMI TCP Connection(11)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-11-15 01:14:22.137  INFO 16076 --- [RMI TCP Connection(11)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-11-15 01:14:22.180  INFO 16076 --- [RMI TCP Connection(11)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
